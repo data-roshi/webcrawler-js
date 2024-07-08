@@ -1,4 +1,5 @@
 const { crawlPage } = require('./crawl');
+const { printReport } = require('./report');
 
 const main = async () => {
     if (process.argv.length < 3) {
